@@ -1,0 +1,35 @@
+// like icon fonts
+//------------------------------------
+
+@include font-face(
+	'icons',
+	font-files(
+		'icons/icons.woff',
+		'icons/icons.ttf',
+		'icons/icons.svg'
+	),
+	'icons.eot'
+	'normal',
+	'normal'
+);
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	// Better Font Rendering
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-thumbs-up:before {
+	content: "\e601";
+}
+.icon-thumbs-up2:before {
+	content: "\e602";
+}

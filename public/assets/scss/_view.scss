@@ -1,0 +1,43 @@
+// public view
+//------------------------------------
+
+$like-color: #3b5998;
+$box-border-color: #d3d3d3;
+
+.has_wpls_box {
+	padding: 10px;
+	border-top: 1px solid $box-border-color;
+	border-bottom: 1px solid $box-border-color;
+
+	p + p {
+		margin-top: 5px;
+	}
+}
+
+	.has_wpls_box__icon {
+		padding-right: 5px;
+	}
+
+	.has_wpls_box__item {
+		margin: 0;
+		padding: 0;
+	}
+
+	.has_wpls_box__item--small {
+		font-size: 14px;
+	}
+
+		.has_wpls_box__link {
+			padding-bottom: 1px;
+			text-decoration: none !important;
+
+			&:hover {
+				color: $like-color;
+				border-bottom: 1px solid $like-color;
+			}
+		}
+
+		.has_wpls_box__link,
+		.has_wpls_inverse {
+			color: $like-color;
+		}
