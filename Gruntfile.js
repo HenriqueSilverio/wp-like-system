@@ -13,13 +13,6 @@ module.exports = function( grunt ) {
 
 		// plugin directories
 		dirs: {
-			admin: {
-				js: 'admin/assets/js',
-				css: 'admin/assets/css',
-				sass: 'admin/assets/scss',
-				images: 'admin/assets/images',
-				fonts: 'admin/assets/fonts'
-			},
 			front: {
 				js: 'public/assets/js',
 				css: 'public/assets/css',
@@ -41,10 +34,10 @@ module.exports = function( grunt ) {
 				'.jshintrc',
 				'.sass-cache/',
 				'node_modules/',
-				'admin/assets/sass/',
+				'admin/assets/scss/',
 				'admin/assets/js/admin.js',
 				'public/assets/js/public.js',
-				'public/assets/sass/',
+				'public/assets/scss/',
 				'Gruntfile.js',
 				'README.md',
 				'package.json',
@@ -60,7 +53,6 @@ module.exports = function( grunt ) {
 			},
 			all: [
 				'Gruntfile.js',
-				'<%= dirs.admin.js %>/admin.js',
 				'<%= dirs.front.js %>/public.js'
 			]
 		},
@@ -69,7 +61,6 @@ module.exports = function( grunt ) {
 		uglify: {
 			dist: {
 				files: {
-					'<%= dirs.admin.js %>/admin.min.js': ['<%= dirs.admin.js %>/admin.js'],
 					'<%= dirs.front.js %>/public.min.js': ['<%= dirs.front.js %>/public.js']
 				}
 			}
@@ -83,15 +74,6 @@ module.exports = function( grunt ) {
 				relativeAssets: true,
 				noLineComments: true,
 				outputStyle: 'compressed'
-			},
-			admin: {
-				options: {
-					sassDir: '<%= dirs.admin.sass %>',
-					cssDir: '<%= dirs.admin.css %>',
-					imagesDir: '<%= dirs.admin.images %>',
-					javascriptsDir: '<%= dirs.admin.js %>',
-					fontsDir: '<%= dirs.admin.fonts %>'
-				}
 			},
 			front: {
 				options: {
@@ -108,10 +90,9 @@ module.exports = function( grunt ) {
 		watch: {
 			compass: {
 				files: [
-					'<%= compass.admin.options.sassDir %>/**',
 					'<%= compass.front.options.sassDir %>/**'
 				],
-				tasks: ['compass:admin', 'compass:front']
+				tasks: ['compass:front']
 			},
 			js: {
 				files: [

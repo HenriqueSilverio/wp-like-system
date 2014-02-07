@@ -58,13 +58,13 @@ Use this function in your theme loop:
 ## Screenshots
 
 ### 1. Front-End display 01.
-![Front-End display 01](#)
+![Front-End display 01](http://s.w.org/plugins/wp-like-system/screenshot-1.png)
 
 ### 2. Front-End display 02.
-![Front-End display 02](#)
+![Front-End display 02](http://s.w.org/plugins/wp-like-system/screenshot-2.png)
 
 ### 3. Front-End display 03.
-![Front-End display 03](#)
+![Front-End display 03](http://s.w.org/plugins/wp-like-system/screenshot-3.png)
 
 ## Changelog ##
 
