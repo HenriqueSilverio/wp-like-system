@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Like System\n"
+"POT-Creation-Date: 2014-02-06 18:00-0300\n"
+"PO-Revision-Date: 2014-02-09 10:15+0100\n"
+"Last-Translator: Patrick Hempel <patrick@patrickhempel.name>\n"
+"Language-Team: Henrique Silvério <contato@henriquesilverio.com>\n"
+"Language: de_De\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../wp-like-system.php:90
+msgid "You should not be trying to do this."
+msgstr "Du solltest das nicht versuchen!"
+
+#: ../wp-like-system.php:113 ../wp-like-system.php:195
+msgid "You and other"
+msgstr "Du und andere"
+
+#: ../wp-like-system.php:113 ../wp-like-system.php:136
+#: ../wp-like-system.php:195 ../wp-like-system.php:209
+msgid "people like that"
+msgstr "Personen gefällt das. "
+
+#: ../wp-like-system.php:117 ../wp-like-system.php:199
+msgid "You and other people like that."
+msgstr "Dir und anderen gefällt das."
+
+#: ../wp-like-system.php:121 ../wp-like-system.php:203
+msgid "You like that."
+msgstr "Dir gefällt das."
+
+#: ../wp-like-system.php:125 ../wp-like-system.php:192
+msgid "Like [Undo]"
+msgstr "Gefällt mir nicht mehr"
+
+#: ../wp-like-system.php:140 ../wp-like-system.php:213
+msgid "One people like that."
+msgstr "Eine Person gefällt das"
+
+#: ../wp-like-system.php:144 ../wp-like-system.php:217
+msgid "Be the first to like!"
+msgstr "Sei der erste, dem das gefällt!"
+
+#: ../wp-like-system.php:148 ../wp-like-system.php:206
+msgid "Like"
+msgstr "Gefällt mir"
