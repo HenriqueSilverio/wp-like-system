@@ -1,14 +1,14 @@
 # WP Like System
 
 **Contributors:** HenriqueSilverio  
-**Tags:** Like, Rating, Post  
+**Tags:** like, dislike, rating, post  
 **Requires at least:** 3.0  
 **Tested up to:** 3.8  
-**Stable tag:** 1.0.0  
+**Stable tag:** 1.1.0  
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
 
-Rating system for posts, based on Facebook likes. Its not dependent of Facebook. Works with WordPress only.
+Rating system for posts, based on Facebook likes. Its not dependent of Facebook.
 
 ## Description
 
@@ -26,11 +26,14 @@ WP Like System comes with a clean HTML markup and some CSS class, making easy fo
 
 ### Ready to translations
 
-Currently, this plugin is translated in English US and Brazilian Portuguese.
+Currently, this plugin has been translated in the following languages:
+
+* English US and Brazilian Portuguese - by [HenriqueSilverio](https://github.com/HenriqueSilverio)
+* Germany DE - by [patrickhempel](https://github.com/patrickhempel)
 
 Feel free to contact me if you wish translate he in your language.
 
-Download the files, translate and send me: <contato@henriquesilverio.com>.
+Download the files, translate and send a pull request on [Github repository](https://github.com/HenriqueSilverio/wp-like-system) or mail me: <contato@henriquesilverio.com>.
 
 ## Installation:
 
@@ -68,7 +71,11 @@ Use this function in your theme loop:
 
 ## Changelog ##
 
-#### 1.0.0
+### 1.1.0
+
+* Added Germany language.
+
+### 1.0.0
 
 * Initial version.
 

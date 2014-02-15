@@ -9,8 +9,8 @@
  * @wordpress-plugin
  * Plugin Name:       WP Like System
  * Plugin URI:        https://github.com/HenriqueSilverio/wp-like-system
- * Description:       Rating system for posts, based on Facebook likes. Its not dependent of Facebook. Works with WordPress only.
- * Version:           1.0.0
+ * Description:       Rating system for posts, based on Facebook likes. Its not dependent of Facebook.
+ * Version:           1.1.0
  * Author:            Henrique Silvério
  * Author URI:        http://blog.henriquesilverio.com
  * Text Domain:       wp-like-system

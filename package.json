@@ -1,7 +1,7 @@
 {
   "name": "wp-like-system",
-  "description": "Rating system for posts, based on Facebook likes. Its not dependent of Facebook. Works with WordPress only.",
-  "version": "1.0.0",
+  "description": "Rating system for posts, based on Facebook likes. Its not dependent of Facebook.",
+  "version": "1.1.0",
   "main": "Gruntfile.js",
   "devDependencies": {
     "grunt": "~0.4.1",
